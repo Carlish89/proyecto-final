@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "nombre": "Producto 1",
+      "descripcion": "Esta es la descripción del producto 1",
+      "imagen": "https://www.pcfactory.cl/public/foto/46805/5_1000.jpg?t=1665494579672",
+      "price": 14990,
+      "liked": false
+    },
+    {
+      "id": 2,
+      "nombre": "Producto 2",
+      "descripcion": "Esta es la descripción del producto 2",
+      "imagen": "https://ejemplo.com/imagen2.jpg",
+      "price": 22990,
+      "liked": false
+    },
+    {
+      "id": 3,
+      "nombre": "Producto 3",
+      "descripcion": "Esta es la descripción del producto 3",
+      "imagen": "https://ejemplo.com/imagen3.jpg",
+      "price": 10990,
+      "liked": false
+    },
+    {
+      "id": 4,
+      "nombre": "Producto 4",
+      "descripcion": "Esta es la descripción del producto 4",
+      "imagen": "https://ejemplo.com/imagen4.jpg",
+      "price": 7990,
+      "liked": false
+    },
+    {
+      "id": 5,
+      "nombre": "Producto 5",
+      "descripcion": "Esta es la descripción del producto 5",
+      "imagen": "https://ejemplo.com/imagen5.jpg",
+      "price": 34990,
+      "liked": false
+    },
+    {
+      "id": 6,
+      "nombre": "Producto 6",
+      "descripcion": "Esta es la descripción del producto 6",
+      "imagen": "https://ejemplo.com/imagen6.jpg",
+      "price": 19990,
+      "liked": false
+    },
+    {
+      "id": 7,
+      "nombre": "Producto 7",
+      "descripcion": "Esta es la descripción del producto 7",
+      "imagen": "https://ejemplo.com/imagen7.jpg",
+      "price": 44990,
+      "liked": false
+    },
+    {
+      "id": 8,
+      "nombre": "Producto 8",
+      "descripcion": "Esta es la descripción del producto 8",
+      "imagen": "https://ejemplo.com/imagen8.jpg",
+      "price": 9990,
+      "liked": false
+    },
+    {
+      "id": 9,
+      "nombre": "Producto 9",
+      "descripcion": "Esta es la descripción del producto 9",
+      "imagen": "https://ejemplo.com/imagen9.jpg",
+      "price": 14990,
+      "liked": false
+    },
+    {
+      "id": 10,
+      "nombre": "Producto 10",
+      "descripcion": "Esta es la descripción del producto 10",
+      "imagen": "https://ejemplo.com/imagen10.jpg",
+      "price": 27990,
+      "liked": false
+    }
+  ]
+  

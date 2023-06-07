@@ -1,0 +1,21 @@
+.publicaciones{
+    margin-top: 100px;
+}
+.pub-galery{
+    display: grid;    
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    margin-top: 50px;
+    grid-auto-flow: row;
+}
+.card-g{
+    display: flex;
+    justify-content: center;
+}
+.flex-container{
+    display: flex;
+    width: 95vw;
+    height: 70vh;
+    justify-content: center;
+    gap: 30px;
+}

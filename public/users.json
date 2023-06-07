@@ -1,0 +1,18 @@
+[
+  {
+      "id": 1,
+      "name": "User",
+      "lastname": "test",
+      "email": "test@test.com",
+      "password": "1234",
+      "profileImage": "https://assets.ey.com/content/dam/ey-sites/ey-com/shared/ey-people-profile-standard.jpg/ey-people-profile-standard.jpg"
+  },
+  {
+      "id": 2,
+      "name": "User2",
+      "lastname": "test2",
+      "email": "test2@test.com",
+      "password": "test2",
+      "profileImage": "https://assets.ey.com/content/dam/ey-sites/ey-com/shared/ey-people-profile-standard.jpg/ey-people-profile-standard.jpg"
+  }
+]

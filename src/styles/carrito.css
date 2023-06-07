@@ -1,0 +1,30 @@
+.carrito-card {
+    display: flex;
+    height: 70px;
+    width: 50vw;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+    padding: 1rem;
+
+  }
+
+  .carrito-img {
+    height: 35px;
+    width: 35px;
+  }
+
+  .carrito-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+
+  }
+
+  .carrito-b1 {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
