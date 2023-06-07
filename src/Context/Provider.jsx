@@ -2,6 +2,8 @@ import { createContext, useState, useEffect } from "react";
 export const Context = createContext()
 export function Provider({ children }) {
     const [productos, setProductos] = useState([])
+    const [sortOrder, setSortOrder] = useState("")
+    const [searchValue,setSearchValue] =useState("")
     const [email, setEmail] = useState("");
     const [users, setUsers] = useState([])
     const [password, setPassword] = useState("");
@@ -104,6 +106,20 @@ export function Provider({ children }) {
         const newProductos = productos.filter((item) => item.id !== id);
         setProductos(newProductos)
       }
+      const sortProducts = (sortValue) => {
+        let sortedProducts = [...productos];
+    
+        if (sortValue === 'price-lowest') {
+          sortedProducts.sort((a, b) => a.price - b.price);
+        } else if (sortValue === 'price-highest') {
+          sortedProducts.sort((a, b) => b.price - a.price);
+        } else if (sortValue === 'id') {
+          sortedProducts.sort((a, b) => a.id.localeCompare(b.id, undefined, { numeric: true }));
+        }
+    
+        setProductos(sortedProducts);
+        setSortOrder(sortValue);
+      };
 
 
     const globalState = {
@@ -132,7 +148,12 @@ export function Provider({ children }) {
         favoritos,
         setFavoritos,
         addProduct,
-        deleteProducto
+        deleteProducto,
+        setSortOrder,
+        sortOrder,
+        sortProducts,
+        searchValue,
+        setSearchValue
 
     }
 
