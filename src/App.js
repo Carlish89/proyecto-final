@@ -20,7 +20,7 @@ function App() {
 
   const {user} = useContext(Context)
  
-  console.log(user)
+  
 
   return (
     <div className="App">
@@ -28,15 +28,15 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/registro" element={<Registro />} />
+            <Route path="/login" element={!user? <Login />: <Navigate to ="/"/>} />
+            <Route path="/registro" element={!user? <Registro />: <Navigate to ="/"/>} />
             <Route path="/productos" element={<Productos />} />
             <Route path="/dashboard" element={user? <Dashboard />: <Navigate to ="/login"/>} />
-            <Route path="/carrito" element={<Carrito />} />
+            <Route path="/carrito" element={user? <Carrito />: <Navigate to ="/login"/>} />
             <Route path="/producto/:id" element={<Detalle />} />
-            <Route path="/perfil" element={<Perfil />} />
-            <Route path="/agregarp" element={<AddProducto />} />
-            <Route path="/publicaciones" element={<Publicaciones />} />
+            <Route path="/perfil" element={user? <Perfil />: <Navigate to ="/login"/>} />
+            <Route path="/agregarp" element={user? <AddProducto />: <Navigate to ="/login"/>} />
+            <Route path="/publicaciones" element={user? <Publicaciones />: <Navigate to ="/login"/>} />
           </Routes>
        
 
