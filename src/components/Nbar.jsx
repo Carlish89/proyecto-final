@@ -31,7 +31,7 @@ const Nbar = () => {
                                 {user ? (
                                 <>
                                     <NavLink to="/productos" className={"m-2 p-2 text-light"} style={{ textDecoration: 'none' }}>Productos</NavLink>
-                                    <NavLink to="/dashboard" className={"m-2 p-2 text-light"} style={{ textDecoration: 'none' }}>{favoritos.length}{" "}Dashboard</NavLink>
+                                    <NavLink to="/dashboard" className={"m-2 p-2 text-light"} style={{ textDecoration: 'none' }}>{favoritos.length}❤️{"        "}Dashboard</NavLink>
                                     <NavLink to="/perfil" className={"m-2 p-2 text-light"} style={{ textDecoration: 'none' }}>Perfil</NavLink>
                                     <NavLink to="/carrito" className={"m-2 p-2 text-light"} style={{ textDecoration: 'none' }}>{carrito.length}{" "}🛒</NavLink>
                                     <Button onClick={() => {setUser(null);setCarrito([]);setPrecioAc(0);setFavoritos([]);setArrayPrecios([]); navigate("/")}}>logout</Button>

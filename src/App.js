@@ -12,7 +12,7 @@ import Detalle from "./views/Detalle";
 import Perfil from "./views/Perfil";
 import AddProducto from "./views/AddProducto";
 import Publicaciones from "./views/Publicaciones";
-
+import EditProduct from "./views/EditProduct";
 
 
 
@@ -37,6 +37,7 @@ function App() {
             <Route path="/perfil" element={user? <Perfil />: <Navigate to ="/login"/>} />
             <Route path="/agregarp" element={user? <AddProducto />: <Navigate to ="/login"/>} />
             <Route path="/publicaciones" element={user? <Publicaciones />: <Navigate to ="/login"/>} />
+            <Route path="/publicaciones/:id" element={user? <EditProduct/>: <Navigate to ="/login"/>} />
           </Routes>
        
 

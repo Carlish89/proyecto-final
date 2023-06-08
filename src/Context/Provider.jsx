@@ -153,7 +153,8 @@ export function Provider({ children }) {
         sortOrder,
         sortProducts,
         searchValue,
-        setSearchValue
+        setSearchValue,
+        setUsers
 
     }
 

@@ -7,7 +7,7 @@ import "../styles/detalle.css"
 
 const Detalle = () => {
     const params = useParams()
-    const { productos,favoritos } = useContext(Context)
+    const { productos,favoritos, user } = useContext(Context)
     const getProductoById = (id) => productos.find((producto) => producto.id === id)
     const nId = Number(params.id)
     const newProducto = getProductoById(nId)
@@ -16,6 +16,11 @@ const Detalle = () => {
     const sumaAc = value.sumaAc
     const setPrecioAc = value.setPrecioAc
     const addFavoritos = value.addFavoritos
+    const disableButton = () => {
+        if(newProducto.liked === true || !user){
+            return true
+        }
+    }
    
 
 
@@ -35,8 +40,8 @@ const Detalle = () => {
                         <h3><b>Precio:{'  '}${newProducto.price}</b></h3>
                     </div>
                     <div>
-                        <Button onClick={() => { añadirProducto(newProducto.id); setPrecioAc(sumaAc(newProducto.id)) }} variant="primary" className="btn-danger">Añadir🛒</Button>
-                        <Button className='bg-warning' onClick={() => {addFavoritos(newProducto) ; console.log(favoritos)}} disabled={newProducto.liked}>Favoritos❤️</Button>
+                        <Button disabled={!user} onClick={() => { añadirProducto(newProducto.id); setPrecioAc(sumaAc(newProducto.id)) }} variant="primary" className="btn-danger">Añadir🛒</Button>
+                        <Button className='bg-warning' onClick={() => {addFavoritos(newProducto) ; console.log(favoritos)}} disabled={disableButton()}>Favoritos❤️</Button>
                     </div>
                 </div>
             </div>

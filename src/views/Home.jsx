@@ -8,7 +8,7 @@ export function capitalizarPrimeraLetra(str) {
 }
 
 const Home = () => {
-  const { productos } = useContext(Context);
+  const { productos,user } = useContext(Context);
   const value = useContext(Context);
   const añadirProducto = value.añadirProducto;
   const sumaAc = value.sumaAc;
@@ -39,6 +39,7 @@ const Home = () => {
                     setPrecioAc(sumaAc(productos.id));
                   }}
                   className="mx-2 bg-danger border border-0"
+                  disabled={!user}
                 >
                   Añadir 🛒
                 </Button>

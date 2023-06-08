@@ -15,7 +15,7 @@ const Login = () => {
         const user = login(email, password);
         if (user) {
             
-            return navigate("/productos");
+            return navigate("/perfil");
         }
         alert("credenciales incorrectas");
     }

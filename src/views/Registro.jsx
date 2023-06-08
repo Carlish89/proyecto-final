@@ -39,7 +39,7 @@ const Registro = () => {
     }
 
     alert("usuario registrado co exito")
-    navigate("/")
+    navigate("/perfil")
 
   };
 
