@@ -11,9 +11,7 @@ const Publicaciones = () => {
     const productosFilt = productos.filter(producto => producto.userid === user.id)
     return (
         <div className='publicaciones'>
-            <div className='title'>
-                <h1>Mis Publicaciones</h1>
-            </div>
+            <h1 className='title'>Mis Publicaciones</h1>
             <div className='pub-galery'>
                 <div className='flex-container'>
                     {productosFilt.map(productosFilt =>
