@@ -29,7 +29,7 @@ const Dashboard = () => {
       </div>
       <div className='d-galery'>
         {favoritos.map(favoritos =>
-          <div key={favoritos.nombre} className="card-g" style={{ width: '25rem' }}>
+          <div key={favoritos.nombre} className="card-g" style={{ width: '18rem' }}>
             <Cardb
               image={favoritos.imagen}
               name={favoritos.nombre}

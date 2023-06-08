@@ -18,7 +18,7 @@ const AddProducto = () => {
     const precio = Number(price)
     addProduct(user.id,nombre,descripcion,imagen,precio)
     alert("Publicacion agregada con exito")
-    navigate("/productos");
+    navigate("/publicaciones");
    }
 
    

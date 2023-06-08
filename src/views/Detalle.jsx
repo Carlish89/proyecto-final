@@ -39,7 +39,7 @@ const Detalle = () => {
                     <div>
                         <h3><b>Precio:{'  '}${newProducto.price}</b></h3>
                     </div>
-                    <div>
+                    <div className='buttons'>
                         <Button disabled={!user} onClick={() => { añadirProducto(newProducto.id); setPrecioAc(sumaAc(newProducto.id)) }} variant="primary" className="btn-danger">Añadir🛒</Button>
                         <Button className='bg-warning' onClick={() => {addFavoritos(newProducto) ; console.log(favoritos)}} disabled={disableButton()}>Favoritos❤️</Button>
                     </div>

@@ -4,8 +4,9 @@
     justify-content: flex-start;
     text-align: justify;
     padding: 5rem;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-inline: 40px;
+    height: 89.5vh;
   }
 
   .desc-img {
@@ -31,6 +32,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 500px;
 
   }
 
@@ -38,8 +40,14 @@
 
   .desc-price {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-end;
+    flex-direction: row;
+    justify-content: space-around;
     margin-top: 72px;
+    width: 100%;
+  }
+  
+  .buttons{
+    display: flex;
+    justify-content: space-around;
+   
   }

@@ -33,7 +33,7 @@ const EditProduct = () => {
         const filtProducts = productos.filter(item => item.id !== newProducto.id)
         setProductos([...filtProducts,updateProduct])
         alert("Producto actualizado con exito")
-        navigate("/")
+        navigate("/publicaciones")
     }
     return (
         <div>

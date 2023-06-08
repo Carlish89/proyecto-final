@@ -14,7 +14,7 @@ const Nbar = () => {
     const navigate = useNavigate()
     return (
         <div>
-            <Navbar bg="primary" expand="lg" className='navbar fixed-top mb-5' >
+            <Navbar bg="primary" expand="lg" className='navbar fixed-top' >
                 <Container >
                     <div className='d-flex justify-content-center align-items-center'>
                         <Navbar.Brand className='logo' style={{ backgroundImage: `url('${logo}')` }}>
