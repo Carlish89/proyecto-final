@@ -11,7 +11,7 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
-    width: 700px;
+    width: 1000px;
     height: 400px;
 }
 .perfil-img{
@@ -20,5 +20,27 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+}
+.perf-desc{
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    justify-content: start;
 
+}
+.perf-name{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+.perf-lastname{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+.input{
+    width: 50%;
+    height: 30px;
 }
