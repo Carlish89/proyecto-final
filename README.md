@@ -1,1 +1,1 @@
-Deploy [Deploy](https://proyecto-final-kappa-ten.vercel.app/ "M-Place")
+Deploy [M-Place](https://proyecto-final-kappa-ten.vercel.app/ "M-Place")
