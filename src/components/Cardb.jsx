@@ -7,9 +7,9 @@ const Cardb = ({ image, name, fill, price, boton1, boton2,boton3 }) => {
             <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={image} className='border-bottom p-2' />
                 <Card.Body>
-                    <Card.Title ><h3><b>{name}</b></h3></Card.Title>
+                    <Card.Title ><b>{name}</b></Card.Title>
                     <Card.Text className='border-bottom p-2'>
-                        <h3><b>${price}</b></h3>
+                        <h5><b>${price}</b></h5>
                     </Card.Text>
                     <div className='d-flex mx-1 justify-content-center'>
                       {boton1}

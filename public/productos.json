@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "nombre": "Producto 1",
+      "nombre": "Msi Nvidia Gtx1660",
       "descripcion": "Esta es la descripción del producto 1",
       "imagen": "https://www.pcfactory.cl/public/foto/46805/5_1000.jpg?t=1665494579672",
       "price": 14990,
@@ -9,73 +9,73 @@
     },
     {
       "id": 2,
-      "nombre": "Producto 2",
+      "nombre": "CPU Intel Celeron® Processor G6900 (s1700)",
       "descripcion": "Esta es la descripción del producto 2",
-      "imagen": "https://ejemplo.com/imagen2.jpg",
+      "imagen": "https://www.pcfactory.cl/public/foto/45170/1_1000.jpg?t=1682634504610",
       "price": 22990,
       "liked": false
     },
     {
       "id": 3,
-      "nombre": "Producto 3",
+      "nombre": "M/B Intel H610M S2H (DDR4) (s1700)",
       "descripcion": "Esta es la descripción del producto 3",
-      "imagen": "https://ejemplo.com/imagen3.jpg",
+      "imagen": "https://www.pcfactory.cl/public/foto/45610/5_1000.jpg?t=1653065696192",
       "price": 10990,
       "liked": false
     },
     {
       "id": 4,
-      "nombre": "Producto 4",
+      "nombre": "Video NVIDIA RTX3090 O24GB Rog Strix White",
       "descripcion": "Esta es la descripción del producto 4",
-      "imagen": "https://ejemplo.com/imagen4.jpg",
+      "imagen": "https://www.pcfactory.cl/public/foto/41928/5_1000.jpg?t=1623796595000",
       "price": 7990,
       "liked": false
     },
     {
       "id": 5,
-      "nombre": "Producto 5",
+      "nombre": "DDR4 16GB (2x8GB) 3600MHz Trident Z Royal",
       "descripcion": "Esta es la descripción del producto 5",
-      "imagen": "https://ejemplo.com/imagen5.jpg",
+      "imagen": "https://www.pcfactory.cl/public/foto/39910/2_1000.jpg?t=1610986496000",
       "price": 34990,
       "liked": false
     },
     {
       "id": 6,
-      "nombre": "Producto 6",
+      "nombre": "Notebook Galaxy Book2 Pro",
       "descripcion": "Esta es la descripción del producto 6",
-      "imagen": "https://ejemplo.com/imagen6.jpg",
+      "imagen": "https://www.pcfactory.cl/public/foto/46140/1_1000.jpg?t=1683958836687",
       "price": 19990,
       "liked": false
     },
     {
       "id": 7,
-      "nombre": "Producto 7",
+      "nombre": "Mouse Gamer G502 X PLUS",
       "descripcion": "Esta es la descripción del producto 7",
-      "imagen": "https://ejemplo.com/imagen7.jpg",
+      "imagen": "https://www.pcfactory.cl/public/foto/47356/1_1000.jpg?t=1683964208741",
       "price": 44990,
       "liked": false
     },
     {
       "id": 8,
-      "nombre": "Producto 8",
+      "nombre": "Consola PlayStation 5",
       "descripcion": "Esta es la descripción del producto 8",
-      "imagen": "https://ejemplo.com/imagen8.jpg",
+      "imagen": "https://www.pcfactory.cl/public/foto/48163/2_1000.jpg?t=1683219372680",
       "price": 9990,
       "liked": false
     },
     {
       "id": 9,
-      "nombre": "Producto 9",
+      "nombre": "Smart TV 55OLED706 55",
       "descripcion": "Esta es la descripción del producto 9",
-      "imagen": "https://ejemplo.com/imagen9.jpg",
+      "imagen": "https://www.pcfactory.cl/public/foto/45706/1_1000.jpg?t=1684265068888",
       "price": 14990,
       "liked": false
     },
     {
       "id": 10,
-      "nombre": "Producto 10",
+      "nombre": "Teclado Gamer G915 TKL",
       "descripcion": "Esta es la descripción del producto 10",
-      "imagen": "https://ejemplo.com/imagen10.jpg",
+      "imagen": "https://www.pcfactory.cl/public/foto/38727/1_1000.jpg?t=1683943855695",
       "price": 27990,
       "liked": false
     }

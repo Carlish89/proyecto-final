@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Button } from 'react-bootstrap'
 import Cardb from '../components/Cardb'
 import { Context } from '../Context/Provider'
@@ -7,20 +7,31 @@ import { Form } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
 const Productos = () => {
-  const { productos, sortProducts, searchValue, setSearchValue } = useContext(Context)
+  const { productos, sortProducts, searchValue, setSearchValue, setProductos } = useContext(Context)
   const value = useContext(Context)
+  const [filterProduct, setFilterProduct] = useState(productos)
   const añadirProducto = value.añadirProducto
   const sumaAc = value.sumaAc
   const setPrecioAc = value.setPrecioAc
   const handleSortChange = (e) => {
     const sortValue = e.target.value;
     sortProducts(sortValue);
-};
+  };
 
-const handleSearchChange = (e) => {
+  const handleSearchChange = (e) => {
     const value = e.target.value;
     setSearchValue(value);
-};
+  };
+  const filtrarProducto = (e) => {
+    e.preventDefault()
+    const query = e.target.value
+    let nuevaLista = [...filterProduct]
+    let newLista = nuevaLista.filter((item) => {
+      return item.nombre.toLowerCase().indexOf(query.toLowerCase()) !== -1
+    });
+    setProductos(newLista);
+
+  };
 
   return (
     <div>
@@ -31,7 +42,7 @@ const handleSearchChange = (e) => {
             <option value="price-lowest">Precio menor a mayor</option>
             <option value="price-highest">Precio mayor a menor</option>
           </Form.Select>
-          <Form.Control placeholder="Buscar" value={searchValue} onChange={handleSearchChange} />
+          <Form.Control placeholder="Buscar" onChange={filtrarProducto} />
         </form>
       </div>
       <div className='galeria  p-3 mt-5'>
