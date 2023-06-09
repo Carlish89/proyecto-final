@@ -12,11 +12,11 @@ const Home = () => {
   return (
     <div className='home' style={{ backgroundImage: `url('${BGImgae}')` }}>
       <div className='tittle'>
-        <h1> <b>Bienvennido a Hardware-Place</b> </h1>
+        <h1> <b>Bienvenido a Hardware-Place</b> </h1>
       </div>
       <div className='buttons'>
         <Link to="/productos"><Button className='buton bg-primary'><b>Entra en el Sitio</b></Button></Link>
-        <Link to="/login"><Button className='buton bg-primary'><b>Inicia Secion</b></Button></Link>
+        <Link to="/login"><Button className='buton bg-primary'><b>Inicia Sesion</b></Button></Link>
         <Link to="/registro"><Button className='buton bg-primary'><b>Registrate</b></Button></Link>      
         </div>
     </div>
