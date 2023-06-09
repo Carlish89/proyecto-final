@@ -48,10 +48,10 @@ const Login = () => {
                         Ingresar
                     </Button>
                     <div className="validates-data">
-                        <p>¿Aún no tienes una cuenta M-Place? </p>
+                        <p>Aquí puedes crear una cuenta nueva</p>
                         <Link to="/registro">
                             <Button type="submit" variant="primary">
-                                Crear nueva cuenta
+                                ir a Registro
                             </Button>
                         </Link>
                     </div>

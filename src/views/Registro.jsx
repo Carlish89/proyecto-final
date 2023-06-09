@@ -54,7 +54,7 @@ const Registro = () => {
             </div>
             <Form className="inputs-register" onSubmit={handleSubmit} >
               <div className='email-password'>
-                <p>Correo electrónico</p>
+                <p>Email</p>
                 <Form.Control type="email" onChange={(e) => { setEmail(e.target.value) }} placeholder="Ingrese su Email" name="email" required />
               </div>
               <div className='email-password'>
