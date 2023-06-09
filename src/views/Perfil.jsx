@@ -45,7 +45,7 @@ const Perfil = () => {
 
                 </div>
                 <Form onSubmit={handleSubmit}>
-                <h5 className='mb-2'>Bienbenido {"  "}{user.name}</h5>
+                <h5 className='mb-2'>Bienvenido {"  "}{user.name}</h5>
                     <div className='perf-desc'>
                         <div className='perf-name'>
                             <span>Nombre:</span>
