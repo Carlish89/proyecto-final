@@ -11,21 +11,13 @@ const Dashboard = () => {
 
   return (
     <div className='dashboard'>
-      <div className='dashboard-title'>
-
-        <h1 className='h1-t border-bottom'>Dashboard</h1>
-
-      </div>
       <div className='d-buttons'>
-        <Link to="/publicaciones">
-        <Button className='button bg-primary'>Mis publicaciones</Button>
-        </Link>
-        <Link to="/agregarp">
-        <Button className='button bg-primary'>Agregar publicacion</Button>
-        </Link>
+     <Link to="/publicaciones"><Button className='button bg-primary'> <b>Mis publicaciones</b> </Button></Link> 
+        <h1 className='h1-t'> <b>Dashboard</b> </h1>
+       <Link to="/agregarp"><Button className='button bg-primary'><b>Agregar publicacion</b> </Button></Link> 
       </div>
       <div>
-        <h3>Mis Favoritos</h3>
+        <h5> <b>Mis Favoritos</b> </h5>
       </div>
       <div className='d-galery'>
         {favoritos.map(favoritos =>

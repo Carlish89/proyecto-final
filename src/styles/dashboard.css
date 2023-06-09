@@ -1,27 +1,22 @@
 .dashboard{
-    margin-top: 45px;
-    height: 120vh;
+   
+    height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content:center;
     align-items: center;
 }
-.dashboard-title{
-    margin-top: 5px;
-    height: 200px;
-    display: flex;
-    align-items: center;
-}
+
 .d-buttons{
     display: flex;
     justify-content: space-around;
-    width: 70%;
+    gap: 100px;
 }
 .button{
     height: 50px;
+    
 }
-.h1-t{
-    width: 80vw;
-    margin-bottom: 20px;
+.h1-t{  
 }
 .d-galery{
 
