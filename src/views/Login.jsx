@@ -17,7 +17,7 @@ const Login = () => {
             
             return navigate("/perfil");
         }
-        alert("credenciales incorrectas");
+        alert("Contraseña incorrecta o email no registrado");
     }
     return (
         <div className='login'>
@@ -28,7 +28,7 @@ const Login = () => {
                         <hr />
                     </div>
                     <div className="email-password">
-                        <p>Correo electrónico</p>
+                        <p>Email</p>
                         <Form.Control
                             type="email"
                             placeholder="Ingrese su Email"

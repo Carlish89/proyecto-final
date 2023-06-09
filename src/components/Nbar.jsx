@@ -21,7 +21,7 @@ const Nbar = () => {
                             <NavLink to="/" style={{ textDecoration: 'none' }}></NavLink>
                         </Navbar.Brand>
                         <Navbar.Brand>
-                            <NavLink to="/" className={"p-2 text-light"} style={{ textDecoration: 'none' }}><b>M-Place</b></NavLink>
+                            <NavLink to="/" className={"p-2 text-light"} style={{ textDecoration: 'none' }}><b>Hardware-Place</b></NavLink>
                         </Navbar.Brand>
                     </div>
                     <div>
@@ -30,16 +30,16 @@ const Nbar = () => {
                             <Nav className="me-auto">
                                 {user ? (
                                 <>
-                                    <NavLink to="/productos" className={"m-2 p-2 text-light"} style={{ textDecoration: 'none' }}>Productos</NavLink>
-                                    <NavLink to="/dashboard" className={"m-2 p-2 text-light"} style={{ textDecoration: 'none' }}>{favoritos.length}❤️{"        "}Dashboard</NavLink>
-                                    <NavLink to="/perfil" className={"m-2 p-2 text-light"} style={{ textDecoration: 'none' }}>Perfil</NavLink>
+                                    <NavLink to="/productos" className={"m-2 p-2 text-light"} style={{ textDecoration: 'none' }}> <b>Productos</b></NavLink>
+                                    <NavLink to="/dashboard" className={"m-2 p-2 text-light"} style={{ textDecoration: 'none' }}>{favoritos.length}❤️{"        "} <b>Dashboard</b> </NavLink>
+                                    <NavLink to="/perfil" className={"m-2 p-2 text-light"} style={{ textDecoration: 'none' }}> <b>Perfil</b> </NavLink>
                                     <NavLink to="/carrito" className={"m-2 p-2 text-light"} style={{ textDecoration: 'none' }}>{carrito.length}{" "}🛒</NavLink>
-                                    <Button onClick={() => {setUser(null);setCarrito([]);setPrecioAc(0);setFavoritos([]);setArrayPrecios([]); navigate("/")}}>logout</Button>
+                                    <Button onClick={() => {setUser(null);setCarrito([]);setPrecioAc(0);setFavoritos([]);setArrayPrecios([]); navigate("/")}}> <b>logout</b> </Button>
                                 </>):(
                                 <>
-                                <NavLink to="/productos" className={"m-2 p-2 text-light"} style={{ textDecoration: 'none' }}>Productos</NavLink>
-                                <NavLink to="/registro" className={"m-2 p-2 text-light"} style={{ textDecoration: 'none' }}>Registro</NavLink>
-                                <NavLink to="/login" className={"m-2 p-2 text-light"} style={{ textDecoration: 'none' }}>Login</NavLink>
+                                <NavLink to="/productos" className={"m-2 p-2 text-light"} style={{ textDecoration: 'none' }}><b>Productos</b></NavLink>
+                                <NavLink to="/registro" className={"m-2 p-2 text-light"} style={{ textDecoration: 'none' }}> <b>Registro</b> </NavLink>
+                                <NavLink to="/login" className={"m-2 p-2 text-light"} style={{ textDecoration: 'none' }}> <b>Login</b> </NavLink>
                                 </>)}
                                 
                                 

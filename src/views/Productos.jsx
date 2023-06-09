@@ -10,7 +10,7 @@ const Productos = () => {
   const { productos, sortProducts, setSearchValue, setProductos,user } =
     useContext(Context);
   const value = useContext(Context);
-  const [filterProduct, setFilterProduct] = useState(productos);
+  const [filterProduct,setFilterProduct] = useState(productos);
   const añadirProducto = value.añadirProducto;
   const sumaAc = value.sumaAc;
   const setPrecioAc = value.setPrecioAc;

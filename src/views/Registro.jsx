@@ -21,7 +21,7 @@ const Registro = () => {
     e.preventDefault();
 
     if (password !== repassword) {
-      alert("Contraseñas no coinciden")
+      alert("Contraseñas son distintas")
       return
     }
 
