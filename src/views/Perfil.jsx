@@ -33,7 +33,7 @@ const Perfil = () => {
         setUsers([...usersFilt, updateUser])
         setUser(updateUser)
         alert("Datos actualizados con exito")
-        navigate("/")
+        navigate("/perfil")
 
 
     }
