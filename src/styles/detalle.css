@@ -4,15 +4,15 @@
     justify-content: flex-start;
     text-align: justify;
     padding: 5rem;
-    margin-top: 80px;
+    margin-top: 70px;
     margin-inline: 40px;
     height: 89.5vh;
   }
 
   .desc-img {
     height: 500px;
-    width: 700px;
-    background-size: cover;
+    width: 500px;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     border-style: solid;
